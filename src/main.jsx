@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import  {First} from './First'
+// import  {FirstApp} from './First'
+
+import { CounterApp } from './CounterApp';
+import './styles.css'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <First/>
-    </React.StrictMode>
+        <CounterApp value={20} />
+    </React.StrictMode> 
 )
